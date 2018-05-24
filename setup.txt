@@ -1,0 +1,34 @@
+PREFERENCES->INPUT-CONTROLLERS: 
+zooming
+
+TOOLS:
+pixel pencil, selection, eraser -> dynamics, anti-aliasing, hard edge
+colour picker -> sample merged
+
+DOCKABLE DIALOGS:
+TR->navigation
+CR->layers
+BR->colours (with selected palette)
+C->(view->grid, image->configure-grid)
+TL->tools
+BL->tool-options
+OPTIONAL->(view of reference image)
+
+WORKFLOW:
+draw new objects (shadows 2) into own transparent filled layer
+
+USEFUL:
+preferences->window-management->save-window-options
+preferences->tool-options->save-tool-options
+right angled triangles in direction of light for shadows
+
+MOVING SELECTION: ctrl-shift-f->ctrl-r
+COPYING LAYER: alt-shift-drag->ctrl-shift-a
+SELECT BY COLOUR: shift-o
+
+decide on orientation. connect with modified line angles and basic shapes. can taper off.
+????connecting horizontal lines to vertical lines????
+
+can lighten darker side (due to light position) by putting a surface on this side that will reflect light back onto this side (it will have the same colour as the surface)
+shadows will be perpendicular to light source (use right angled triangle to calculate position)
+
